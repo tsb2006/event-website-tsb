@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVENT PRO – Event Management</title>
+  <link rel="stylesheet" href="./EVENT PRO – Event Management_files/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">EVENT PRO</div>
+      <nav>
+        <a href="http://127.0.0.1:5500/index.html#home">Home</a>
+        
+       
+    </nav></div>
+  </header>
+
+
+
+    <title>EventPro</title>
+
+
+
+   <section class="hero">
+  <div class="hero-content">
+    <h1>We Plan.<br> You Celebrate.</h1>
+
+    <p>
+      Transform your special moments into unforgettable experiences.
+      From intimate gatherings to grand celebrations,
+      we bring your vision to life with precision and creativity.
+    </p>
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+ <div class="services-grid">
+  <div class="service-card">
+    <h3>Weddings</h3>
+    <p>From intimate ceremonies to grand celebrations</p>
+    <a href="http://127.0.0.1:5500/wedding.html" class="card-link">Explore →</a>
+  </div>
+  
+  <div class="service-card">
+    <h3>Corporate Events</h3>
+    <p>Conferences, product launches, team buildings, award nights</p>
+    <a href="http://127.0.0.1:5500/corporate.html" class="card-link">Explore →</a>
+  </div>
+
+  <div class="service-card">
+    <h3>Private Parties</h3>
+    <p>Birthdays, anniversaries, themed events, housewarmings</p>
+    <a href="http://127.0.0.1:5500/birthday.html" class="card-link">Explore →</a>
+  </div>
+</div>
+
+    </section>
+
+<!-- footer.html -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">EVENT PRO</div>
+      
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="wedding.html">Weddings</a>
+        <a href="corporate.html">Corporate</a>
+        <a href="birthday.html">Private Parties</a>
+      </div>
+      
+      <div class="footer-contact">
+        <p>Contact us: <a href="mailto:hello@eventpro.com">hello@eventpro.com</a></p>
+        <p>© 2026 EVENT PRO. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body></html>

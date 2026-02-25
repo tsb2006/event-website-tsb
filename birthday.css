@@ -1,0 +1,151 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #0d0d1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4d6d;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff4d6d;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('Festive birthday celebration with fairy lights colorful balloons confetti and gift boxes on a black background _ Premium AI-generated image.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ff4d6d;
+}
+
+.hero-content p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  color: #e0e0ff;
+}
+
+/* Marquee Animation */
+.marquee {
+  overflow: hidden;
+  background: #ff4d6d;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 15s linear infinite;
+  font-weight: bold;
+  color: #fff;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 50px 10%;
+  background: #141428;
+}
+
+/* Service Card */
+.service-card {
+  background: #1c1c35;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.service-card h3 {
+  margin-bottom: 15px;
+  color: #ff4d6d;
+}
+
+.service-card p {
+  margin-bottom: 20px;
+  color: #ccccff;
+}
+
+/* Hover Effect */
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(255, 77, 109, 0.4);
+}
+
+/* Button */
+.card-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d6d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.card-link:hover {
+  background: #ff1e4d;
+}
